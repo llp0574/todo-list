@@ -1,0 +1,21 @@
+.todo-list li .destroy {
+  display: block !important;
+}
+
+.todo-item-enter {
+  opacity: 0.01;
+}
+
+.todo-item-enter.todo-item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.todo-item-leave {
+  opacity: 1;
+}
+
+.todo-item-leave.todo-item-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
